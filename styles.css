@@ -530,6 +530,9 @@ body {
     width: 100%;
     height: 100%;
     background-color: #000; 
+    background-image: url('Images/slideimg2.jpg');  
+    background-size: cover;              
+    background-repeat: no-repeat;     
     z-index: 1000; 
     transition: transform 0.5s ease; 
     overflow-y: auto; /* Enable vertical scrolling if content overflows */
@@ -1257,3 +1260,4 @@ body {
     overflow-x: hidden;
     width: 100%;
 }
+
