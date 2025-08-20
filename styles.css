@@ -1261,3 +1261,82 @@ body {
     width: 100%;
 }
 
+/* iPhone 14 Pro (390px width) */
+@media only screen 
+  and (device-width: 390px) 
+  and (device-height: 844px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    
+  body {
+    font-size: 15px;
+  }
+
+  .container, .card, .section {
+    padding: 12px;
+    margin: 8px;
+  }
+
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* iPhone 14 Pro Max (430px width) */
+@media only screen 
+  and (device-width: 430px) 
+  and (device-height: 932px) 
+  and (-webkit-device-pixel-ratio: 3) {
+    
+  body {
+    font-size: 16px;
+  }
+
+  .container, .card, .section {
+    padding: 14px;
+    margin: 10px;
+  }
+
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Samsung Galaxy S24 (412px width) */
+@media only screen 
+  and (device-width: 412px) 
+  and (device-height: 915px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+  body {
+    font-size: 16px;
+  }
+
+  .container, .card, .section {
+    padding: 14px;
+    margin: 10px;
+  }
+
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* General responsiveness for small screens */
+@media (max-width: 768px) {
+  .flex, .grid {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+  }
+
+  .navbar, .footer {
+    text-align: center;
+  }
+
+  button, input {
+    width: 100%;
+  }
+}
+
